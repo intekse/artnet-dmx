@@ -1,9 +1,13 @@
 #ifndef DEF_H
 #define DEF_H
 
-#define DMX_MAX 212 // Max number of DMX channels
-#define BUFFER_SIZE 1500//400
+// Max number of DMX channels
+#define DMX_MAX 512 
 
+// Maximum received packet size
+#define BUFFER_SIZE 1500
+
+// Heart beat LED blink delay in ms
 #define blink_delay 500
 
 #endif
