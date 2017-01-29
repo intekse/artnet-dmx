@@ -57,7 +57,7 @@ UART_HandleTypeDef huart3;
 uint8_t DMXBuffer[DMX_MAX];
 
 static unsigned char mymac[6] = {0x54,0x55,0x58,0x10,0x00,0x24};
-static unsigned char myip[4] = {192,168,1,25};
+static unsigned char myip[4] = {192,168,0,15};
 
 uint16_t currTick = 0;
 uint16_t lastBlinkTick = 0;
