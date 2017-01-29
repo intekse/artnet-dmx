@@ -125,8 +125,8 @@ int main(void)
 
   enc28j60Init(mymac);
   init_ip_arp_udp_tcp(mymac,myip);
-  enc28j60PhyWrite(PHLCON,0x7a4);
-  //enc28j60PhyWrite(PHLCON,0x476);
+  //enc28j60PhyWrite(PHLCON,0x7a4);
+  enc28j60PhyWrite(PHLCON,0x476);
   enc28j60clkout(2); // change clkout from 6.25MHz to 12.5MHz
 
   char version;
